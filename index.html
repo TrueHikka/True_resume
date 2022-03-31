@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="kaywords" content="Vitaly, cv, resume"/> 
+  <meta name="discription" content="Это сайт-резюме Виталия Полякова"/> 
+  <title>Vitaly Resume</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body >
+  
+  <div class="container">
+    <div class="info">
+        <img src="dark.jpg" alt="здесь аватар" class="avatar">
+    
+      <div class="info-text">
+        <h1>Виталий Поляков</h1>
+        
+        <p>Мне 24 года. Недавно отучился на бакалавра в одном из вузов Санкт-петербурга. Это было ошибкой, потому что я не хочу заниматься тем, на что выучился.</p>
+          
+        <p>На данный момент <em>нахожусь в поисках себя</em>. Поэтому решил не терять времени впустую, кинув свой взор на программирование, к которому пришел не сразу. Сначала пытался заниматься контекстной рекламой, потом дизайном карточек для "Wildberries". Но не смог загореться.</p>
+
+        <p>В этом деле прельщает не столько заработок, сколько возможность <em>трудиться интеллектуально</em>. Ведь человек, который все время что-то изучаюет, меньше подвергается в старости к болезни Альцгеймера.</p>  
+
+        <p><em>Программирование - одна из тех вещей, которая не будет давать мозгам атрофироваться.</em></p>
+          
+        <h4><strong> Список социальных сетей:</strong></h4>
+        
+        <a href="https://t.me/deadcatboy" target="_blank" class="btn">Telegram</a>
+        |
+        <a href="https://vk.com/me_mortuo_terra_miscetur_igni" target="_blank" class="btn">Vkontakte</a>
+      </div>
+
+    </div> 
+
+
+    <div class="card bg1">
+      <h2>Мои хобби:</h2>
+
+      <ol class="list">
+        <li>Гитарное мастерство</li>
+        <li>Философия</li>
+        <li>Точные науки</li>
+        <li>Распитие вкусных чаев</li>
+      </ol>
+
+    </div> 
+
+    <div class="card bg2">
+      <h2>Опыт работы</h2>
+       
+      <!-- можно для таблицы задать width <table width="">-->
+      <table class="table"> 
+        
+        <thead>
+          <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Готэк Северо-Запад</td>
+            <td>Съемщик целлюлозы</td>
+            <td>нач. 2021</td>
+          </tr>
+          <tr>
+            <td>Jacobs</td>
+            <td>Транспортировщик</td>
+            <td>кон. 2021</td>
+          </tr>
+          <tr>
+            <td>ЯндексЕда</td>
+            <td>Специалист поддержки</td>
+            <td>2022 - сейчас</td>
+          </tr>
+        </tbody>
+      </table>
+      
+    </div>
+
+    <!-- <div class="card bg3"> -->
+      <!-- <h2>Связаться со мной</h2> -->
+
+    <form action="/" class="form">
+      <h2>Связаться со мной</h2>
+          
+        <div class="form-row">
+
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
+              
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+        </div> 
+
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea id="message" cols="30" rows="6" placeholder="Введите сообщение..."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Отправить!</button>
+        
+      </form>
+
+    </div>
+  
+    <br>
+    <br>
+
+  </div>
+</body>
+</html>
